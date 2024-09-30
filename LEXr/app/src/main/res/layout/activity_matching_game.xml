@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical|center_horizontal"
+    android:padding="10dp">
+
+    <!-- TextView for displaying the Spanish word, centered horizontally -->
+    <TextView
+        android:id="@+id/spanishWordTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="@string/spanish_word"
+        android:textColor="@android:color/black"
+        android:visibility="visible"
+        android:gravity="center"
+        android:layout_marginBottom="30dp" />
+
+    <!-- Horizontal LinearLayout for buttons, centered horizontally -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <!-- Button choices for the English translation -->
+        <Button
+            android:id="@+id/englishWordButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/choice_1"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="@color/green"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/englishWordButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/choice_2"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="@color/green"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/englishWordButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/choice_3"
+            android:backgroundTint="@color/green"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+</LinearLayout>

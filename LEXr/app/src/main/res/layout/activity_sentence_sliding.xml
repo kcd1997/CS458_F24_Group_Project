@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal|center_vertical">
+
+    <!-- English sentence at the top -->
+    <TextView
+        android:id="@+id/englishSentenceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="English sentence will appear here"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <!-- ViewPager to swipe through Spanish words -->
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/wordViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp" />
+
+    <!-- Next Sentence button -->
+    <Button
+        android:id="@+id/nextSentenceButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next Sentence"
+        android:visibility="visible"
+        android:backgroundTint="@color/green"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
+

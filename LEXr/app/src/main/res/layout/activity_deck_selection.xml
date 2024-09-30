@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="20dp">
+
+
+        <!-- Spanish Verbs Section -->
+        <TextView
+            android:id="@+id/verbsHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Spanish Verbs"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/grey" />
+
+        <Button
+            android:id="@+id/spanishDeck1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Spanish Verbs 1"
+            android:backgroundTint="@color/green"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/spanishDeck2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Spanish Verbs 2"
+            android:backgroundTint="@color/green"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/spanishDeck3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Spanish Verbs 3"
+            android:backgroundTint="@color/green"
+            android:textColor="@android:color/white" />
+
+        <!-- Spanish Nouns Section -->
+        <TextView
+            android:id="@+id/nounsHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Spanish Nouns"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/grey" />
+
+        <Button
+            android:id="@+id/spanishDeck4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Spanish Nouns 4"
+            android:backgroundTint="@color/green"
+            android:textColor="@android:color/white" />
+
+        <!-- Sentences and Timed Quiz Section -->
+        <TextView
+            android:id="@+id/sentencesHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sentences and Timed Quiz"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/grey" />
+
+        <Button
+            android:id="@+id/sentencesDeck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Slide Sentences"
+            android:backgroundTint="@color/green"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/matchingGameButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Matching Game"
+            android:backgroundTint="@color/green"
+            android:textColor="@android:color/white" />
+
+        <!-- Extra Section -->
+        <TextView
+            android:id="@+id/extraHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Extra"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/grey" />
+
+        <Button
+            android:id="@+id/latinDeck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Latin Deck"
+            android:backgroundTint="@color/green"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/viewFavoritesButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View Favorites"
+            android:backgroundTint="@color/green"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+</ScrollView>
+

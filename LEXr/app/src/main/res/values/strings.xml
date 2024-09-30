@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="word">Word</string>
+    <string name="conjugates">Conjugates</string>
+    <string name="flip_card">Flip Card</string>
+    <string name="translation">Translation</string>
+    <string name="reorganize_deck">Reorganize Deck</string>
+    <string name="english_sentence_will_appear_here">English sentence will appear here</string>
+    <string name="spanish_word">Spanish Word</string>
+    <string name="choice_1">Choice 1</string>
+    <string name="choice_2">Choice 2</string>
+    <string name="choice_3">Choice 3</string>
+</resources>

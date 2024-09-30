@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- TextView for displaying the lexeme -->
+    <TextView
+        android:id="@+id/cardLexeme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="@android:color/black" />
+
+    <!-- TextView for displaying the word -->
+    <TextView
+        android:id="@+id/cardWord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:gravity="center" />
+
+    <!-- TextView for displaying conjugates -->
+    <TextView
+        android:id="@+id/cardConjugates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:gravity="center" />
+
+    <!-- TextView for displaying the translation (hidden initially) -->
+    <TextView
+        android:id="@+id/cardTranslation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/favoriteIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_star_outline"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp" />
+
+
+</LinearLayout>
